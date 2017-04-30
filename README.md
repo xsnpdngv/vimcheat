@@ -1,18 +1,19 @@
-# Different Vim commands, a cheat sheet
+# Vim cheat sheet
 
 `:h {command}` - help page on the *command*  
 [Vim's Wiki](http://vim.wikia.com)  
 Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 
 ### Content
-[Working with files](https://github.com/vicrucann/vimcheat/blob/master/README.md#files)  
-[Main commands](https://github.com/vicrucann/vimcheat/blob/master/README.md#commands)  
-[Working with registers](https://github.com/vicrucann/vimcheat/blob/master/README.md#registers)  
-[VISUAL-BLOCK mode](https://github.com/vicrucann/vimcheat/blob/master/README.md#visual-block)  
-[Navigation, search, replace](https://github.com/vicrucann/vimcheat/blob/master/README.md#navigation-search-and-replace)  
-[Makefile](https://github.com/vicrucann/vimcheat/blob/master/README.md#makefile)  
-[Buffer, window and tab management](https://github.com/vicrucann/vimcheat/blob/master/README.md#bufferwindowtab-management)  
-[Spell check](https://github.com/vicrucann/vimcheat/blob/master/README.md#spell-check)  
+[Working with files](#files)  
+[Main commands](#commands)  
+[Working with registers](#registers)  
+[VISUAL-BLOCK mode](#visual-block)  
+[Navigation, search, replace](#navigation-search-and-replace)  
+[Makefile](#makefile)  
+[Buffer, window and tab management](#bufferwindowtab-management)  
+[Spell check](#spell-check)
+[Paragraph fit](#paragraph-fit)
 
 ### Files  
 
@@ -191,4 +192,8 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 `z=` - once the curson is on the word, the command will provide a list of possible corrections  
 `zg` - add the word to dictionary  
 `zw` - mark the word as incorrect  
-`set spell spelllang=en_us` - add to vimrc to remember the language setting  
+`set spell spelllang=en_us` - add to vimrc to remember the language setting
+
+### Paragraph fit
+`vip` - visual inner paragraph (select current paragraph in viusal mode)
+`gq` - format the lines (considering textwidth)

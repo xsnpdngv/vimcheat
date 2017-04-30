@@ -12,8 +12,8 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 [Navigation, search, replace](#navigation-search-and-replace)  
 [Makefile](#makefile)  
 [Buffer, window and tab management](#bufferwindowtab-management)  
-[Spell check](#spell-check)
-[Paragraph fit](#paragraph-fit)
+[Spell check](#spell-check)  
+[Paragraph fit](#paragraph-fit)  
 
 ### Files  
 

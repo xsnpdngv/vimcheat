@@ -195,5 +195,5 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 `set spell spelllang=en_us` - add to vimrc to remember the language setting
 
 ### Paragraph fit
-`vip` - visual inner paragraph (select current paragraph in viusal mode)
+`vip` - visual inner paragraph (select current paragraph in viusal mode)  
 `gq` - format the lines (considering textwidth)

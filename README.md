@@ -182,7 +182,9 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 ### Plugins
 `:NERDTree` - open file manager  
 * `<C-w> <left>` or `<C-w> <right>` - move between file manager and main vim window
-* `r` - updates the current folder content on NERDTree
+* `<C-w-w>` - jump between file manager and main window
+* `?` (in file manager window) - bring up NERDTree help
+* `r` - update the current folder content on NERDTree
 
 ### Spell check
 `:set spell spelllang=en_us` - turn the spell on with specified language (US English)  

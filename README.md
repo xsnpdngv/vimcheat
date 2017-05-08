@@ -200,6 +200,11 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 `vip` - visual inner paragraph (select current paragraph in viusal mode)  
 `gq` - format the lines (considering textwidth)
 
+### Misc
+
 `ciw` - change actual word
 `gi` - go to insert mode where last time was in insert mode
 `>>`/`<<` - indent/dedent actual line or selection
+`ga` - ASCII code of character under cursor
+`*`/`#` - search/highlight next/previous occurences of word under cursor
+`!sort` - sort visually selected lines

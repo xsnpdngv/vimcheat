@@ -199,3 +199,7 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 ### Paragraph fit
 `vip` - visual inner paragraph (select current paragraph in viusal mode)  
 `gq` - format the lines (considering textwidth)
+
+`ciw` - change actual word
+`gi` - go to insert mode where last time was in insert mode
+`>>`/`<<` - indent/dedent actual line or selection

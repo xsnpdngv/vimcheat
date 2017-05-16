@@ -159,7 +159,7 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 `map cn <esc>:cn<cr>` - in vimrc to map `:cn` command  
 `map cp <esc>:cp<cr>` - in vimrc to map `:cp` command  
 
-### Buffer/window/tab management 
+### Buffer/window/tab management
 `:ls` - list all currently open buffers  
 `:sba` or `:vert sba` - split all the open windows into horizontal / vertical windows  
 `:bd *.ext` - "buffer delete": close all windows with `.ext` extension  
@@ -209,3 +209,4 @@ Reference: [ProVim](http://link.springer.com/book/10.1007%2F978-1-4842-0250-0)
 `ga` - ASCII code of character under cursor  
 `*`/`#` - search/highlight next/previous occurences of word under cursor  
 `!sort` - sort visually selected lines  
+`:noh` - turn matched pattern highlighting off till next search  
